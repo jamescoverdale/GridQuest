@@ -1,0 +1,23 @@
+.DS_Store
+
+# Local Xcode state and build output
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+*.xcresult/
+.build/
+
+# Local environment and hosting credentials
+.env
+.env.*
+!.env.example
+.openai/
+
+# Website dependencies, if added later
+node_modules/
+
+# Private research and account-specific Xcode configuration
+/docs/squadra-apk-evidence.txt
+/docs/squadra-research.md
+/ios/GridQuest/GridQuest.xcodeproj/project.pbxproj
